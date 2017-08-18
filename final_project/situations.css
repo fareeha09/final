@@ -29,20 +29,10 @@ display:inline;
 .para {
   font-family: 'Raleway', sans-serif;
 }
-/*.top {
-    position:absolute;
-    left:0; right:0;
-    height: 92px;
-}
-.left {
-    position:absolute;
-    left:0; top:92px; bottom: 0;
-    width: 178px;
-}
-.main {
-    position: absolute;
-    left:178px; top:92px; right:0; bottom:0;*/
 
+.water {
+  font-family:'Gloria Hallelujah', cursive;
+}
 
     div.tab {
         overflow: hidden;
@@ -79,6 +69,7 @@ display:inline;
         border: 1px solid #ccc;
         border-top: none;
     }
+
     #results {
     	background: #dddada;
     	color: 000000;

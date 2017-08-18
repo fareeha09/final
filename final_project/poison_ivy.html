@@ -10,6 +10,8 @@
     type = "text/css"
     href = "situations.css" />
 <link href="https://fonts.googleapis.com/css?family=Abel|Acme|Fira+Sans|Julius+Sans+One|Merriweather+Sans|Play|Raleway|Yanone+Kaffeesatz" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah|Indie+Flower|Just+Another+Hand|Sedgwick+Ave|Sedgwick+Ave+Display|Shadows+Into+Light" rel="stylesheet">
+
 <img id="banner" src="banner.jpg" alt="Banner Image">
 
   <div class="tab">
@@ -22,57 +24,82 @@
 
 <div class="words">
 <h1> Poison Ivy </h1>
+
+<img src="poisonivy.jpg" align="left" width=550px/>
+
 <h2> Why is poison ivy dangerous? </h2>
-Poison Ivy contains an oil called urushiol that often causes the skin to have allergic reactions. It leads to an itchy, blistering rash. Although the rash does not spread,
+Poison Ivy contains an oil called urushiol that often causes the skin to have allergic reactions.<mark> If the oil makes contact with skin, it can lead to an itchy, blistering rash.</mark> Although the rash does not spread, it is very irritating and painful.<br>
+<br>Dead poison ivy plants can also contain the oil so stay clear of those.<br>
+<br><strong>If any of your belongings touch poison ivy, there is a chance the oil is still on the object so make sure you make no direct contact with the object.</strong>
+<h2>How to identify if a plant is poison ivy?</h2>
+<ul>
+<li> 1. Poison ivy has leaves that grow in groups of three.</li>
+<li>2. Poison ivy leaves are pointed at the tip.</li>
+<li>3. Poison ivy is usually green in the spring and reddish-orange in the fall.</li>
+<li>4. Poison ivy grows as both a vine and as a shrub.</li>
+<li>5. Poison ivy flowers with small clusters of white berries in the spring that last throughout the winter.</li>
+</ul> Poison ivy can be found in almost every state of the US. They can grow in <strong>woods, fields, city parks, and gardens</strong>. They exist in both wet and dry climates.
+<h2>What to do if you come in contact with poison ivy:</h2>
+<ol>
+<li>Wash the area affected immediately with <button onclick=button_appear("cold")>cold water</button> and soap. (Using a compress also helps)<div class="water" id="cold" style="display:none;">  Cold water helps sooth the irritation</div></li>
+<li>If you do not have water, then rubbing alcohol will also work.</li>
+<li><mark>Do not touch other people or objects because the oil will spread.</mark></li>
+<li>If possible, remove contaminated clothing.</li>
+<li>Avoid itching the affected area.</li>
+</ol>
+<h2> Natural Remedies to treat poison ivy:</h2>
+<ul>
+  <li><b>3 teaspoons of baking soda</b> with <b>one teaspoon of water</b>, mix until it forms a  <button onclick=button_appear("sooth")>paste</button> <div class="water" id="sooth" style="display:none;">. <b>--> Sooths the itch</b></div> </li>
+  <li>Cook <b>oatmeal</b> until it forms a paste.</li>
+  <li><b>Aloe Vera gel</b></li>
+  <li> <b>Cucumbers</b>/<b>Banana peels</b></li>
+</ul>
+&nbsp&nbsp&nbsp&nbsp Find more natural remedies at <a href="https://www.globalhealingcenter.com/natural-health/poison-ivy-remedies/">https://www.globalhealingcenter.com/natural-health/poison-ivy-remedies/</a>
 </div>
 <div class="entire">
 <div class="quiz">
 <h2> &nbsp Quiz:</h2> </div>
 <!-- <form action=""> -->
 <div class="para" id="result">
-<strong>1.</strong>
+<strong>1. What is the first thing you should do if you touch poison ivy?</strong>
 <ul>
-  <input type="radio" name="num1" id="correct1" value="a">a) FIjdslkjf <br>
-  <input type="radio" name="num1" id="wrong1" value="b">b)jkafdnajsknfk<br>
-  <input type="radio" name="num1" id="wrong1" value="c">c)esfjlksdhjfa <br><br> </ul>
-  <strong>2.</strong><ul>
-  <input type="radio" name="num2" id="correct2" value="a">a) FIjdslkjf <br>
-  <input type="radio" name="num2" id="wrong2" value="b">b)jkafdnajsknfk<br>
-  <input type="radio" name="num2" id="wrong2" value="c">c)esfjlksdhjfa <br><br> </ul>
-  <strong>3.</strong><ul>
-  <input type="radio" name="num3" id="correct3" value="a">a) FIjdslkjf <br>
-  <input type="radio" name="num3" id="wrong3" value="b">b)jkafdnajsknfk<br>
-  <input type="radio" name="num3" id="wrong3" value="c">c)esfjlksdhjfa <br><br></ul>
-  <strong>4.</strong><ul>
-  <input type="radio" name="num4" id="correct4" value="a">a) FIjdslkjf <br>
-  <input type="radio" name="num4" id="wrong4" value="b">b)jkafdnajsknfk<br>
-  <input type="radio" name="num4" id="wrong4" value="c">c)esfjlksdhjfa <br><br></ul>
-  <strong>5.</strong><ul>
-  <input type="radio" name="num5" id="correct5" value="a">a) FIjdslkjf <br>
-  <input type="radio" name="num5" id="wrong5" value="b">b)jkafdnajsknfk<br>
-  <input type="radio" name="num5" id="wrong5" value="c">c)esfjlksdhjfa <br> </ul>
+  <input type="radio" name="num1" id="correct1" value="a"><b>a)</b> Wash your hands with cold water. <br>
+  <input type="radio" name="num1" id="wrong1" value="b"><b>b)</b> Rub the area affected with your hands to get the oil off.<br>
+  <input type="radio" name="num1" id="wrong11" value="c"><b>c)</b> Try wiping the area with a piece of your clothing. <br><br> </ul>
+  <strong>2. Which plant is poison ivy?</strong><ul>
+  <input type="radio" name="num2" id="wrong2" value="a"><b>a)</b> <img src="boxy.jpg" height=200px>
+  <input type="radio" name="num2" id="wrong22" value="b"><b>b)</b> <img src="virginia_creeper.jpg" height=200px>
+  <input type="radio" name="num2" id="correct2" value="c"><b>c)</b> <img src="poisonivy1.jpg" height=200px><br><br> </ul>
+  <strong>3. If you are not immune to poison ivy and you come in contact with it, what will you most likely not see or feel after a while?</strong><ul>
+  <input type="radio" name="num3" id="correct3" value="a"><b>a)</b> a blue scar <br>
+  <input type="radio" name="num3" id="wrong3" value="b"><b>b)</b> irritation and pain<br>
+  <input type="radio" name="num3" id="wrong33" value="c"><b>c)</b> a red rash<br><br></ul>
+  <strong>4. What should you do if any of your belongings or clothing touches poison ivy?</strong><ul>
+  <input type="radio" name="num4" id="wrong4" value="a"><b>a)</b> Nothing because your skin didn't come in contact with the leaves. <br>
+  <input type="radio" name="num4" id="correct4" value="b"><b>b)</b> Remove and get rid of the stuff/ wash them with a glove on.<br>
+  <input type="radio" name="num4" id="wrong44" value="c"><b>c)</b> Wash them using your hands. <br><br></ul>
+  <strong>5. Are you likely to find poison ivy in the US?</strong><ul>
+  <input type="radio" name="num5" id="wrong5" value="a"><b>a)</b> No it is industrialized.<br>
+  <input type="radio" name="num5" id="correct5" value="b"><b>b)</b> Yes you'll find it in most of the US<br>
+  <input type="radio" name="num5" id="wrong55" value="c"><b>c)</b> idk <br> </ul>
   <button onclick="poison_ivy()">Submit </button>
 </div> </div>
-  <!-- <div id="results">
-Show me the answers!
-</div> -->
-<!--
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script> -->
-<!-- </form> -->
+
 <p id= "no"> </p>
 <div id="result"> </div>
-
+<div id="restart"><button onClick="after_quiz()" style="display:none;">Restart </button></div>
 <!-- <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share on Facebook!</a></div> -->
-<a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=113869198637480&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fapp_id%3D113869198637480%26kid_directed_site%3D0%26sdk%3Djoey%26u%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26display%3Dpopup%26ref%3Dplugin%26src%3Dshare_button&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Freturn%2Fclose%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=en_US&kid_directed_site=0"><img src="facebook.png" width= 30% style="display: none;"> </a>
+<!-- <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=113869198637480&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fapp_id%3D113869198637480%26kid_directed_site%3D0%26sdk%3Djoey%26u%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26display%3Dpopup%26ref%3Dplugin%26src%3Dshare_button&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Freturn%2Fclose%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=en_US&kid_directed_site=0"><img src="facebook.png" width= 30% style="display: none;"> </a> -->
 <!-- <div class="share-btn shareButtonFcbkBig _c" id="quizFBShare" _cid="shareButtonFcbkBig"></div> -->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<small><small><u>Sources</u>:https://www.zocdoc.com/answers/8202/is-poison-ivy-dangerous-or-just-uncomfortable <br>https://www.aad.org/public/diseases/itchy-skin/poison-ivy-oak-and-sumac </small></small>
+<small><small><u>Sources</u>:https://www.zocdoc.com/answers/8202/is-poison-ivy-dangerous-or-just-uncomfortable
+<br>https://www.aad.org/public/diseases/itchy-skin/poison-ivy-oak-and-sumac
+<br>https://www.sciencedaily.com/terms/poison_ivy.htm
+<br>https://www.allinahealth.org/mdex/ND1404G.HTM
+<br>https://www.globalhealingcenter.com/natural-health/poison-ivy-remedies/
+<br>http://bioweb.uwlax.edu/bio203/2010/ferris_jaco/Poison_Ivy/Habitat_and_Adaptations.html
+<br>http://www.webmd.com/allergies/ss/slideshow-poison-plants
+</small></small>
+
 </body>
 </html>
