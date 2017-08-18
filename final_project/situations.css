@@ -8,8 +8,27 @@
   height: 200px;
   z-index: -1;
 }
+/*
+.entire{
+border-top-style: dotted;
+border-right-style: solid;
+border-bottom-style: dotted;
+border-left-style: solid;
+display:inline;
+}*/
 
-
+.words{
+  font-family: 'Raleway', sans-serif;
+}
+.quiz{
+  font-family: 'Merriweather Sans', sans-serif;
+  background: -webkit-linear-gradient(#eee, #908F7D);
+  color: darkred;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.para {
+  font-family: 'Raleway', sans-serif;
+}
 /*.top {
     position:absolute;
     left:0; right:0;
