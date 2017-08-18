@@ -22,5 +22,5 @@ function poison_ivy() {
     //   score += 1;
     }}
     result= "Your chance of surviving is " + (score / 5) * 100 + "%"
-    document.getELementById("result").innerHTML(result);
+    document.getElementById("result").innerHTML(result);
   }
