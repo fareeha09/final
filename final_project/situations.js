@@ -4,7 +4,7 @@ function dropDown(){
 
 function poison_ivy() {
   var score = 0;
-  var result;
+  var answer;
   for (i=1; i<6; i++) {
     if (document.getElementById("correct1").checked){
       score += 1;
@@ -21,6 +21,6 @@ function poison_ivy() {
     // if (document.getElementById("correct5").checked){
     //   score += 1;
     }}
-    result= "Your chance of surviving is " + (score / 5) * 100 + "%"
-    document.getElementById("result").innerHTML(result);
+    answer= "Your chance of surviving is " + (score / 5) * 100 + "%"
+    document.getElementById("result").innerHTML(answer);
   }
