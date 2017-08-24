@@ -8,19 +8,30 @@
   height: 400px;
   z-index: -1;
 }
-/*
-.entire{
-border-top-style: dotted;
-border-right-style: solid;
-border-bottom-style: dotted;
-border-left-style: solid;
-display:inline;
-}*/
+
+body{
+  background-image: url("notebook1..jpg");
+}
+
+.main{
+background: linear-gradient(#e4e3e3, #3a3535);
+}
 
 .heading{
-  font-size:100;
-  font-family: 'Permanent Market', sans-serif;
+  font-size: 100;
+  font-family: 'Sedgwick Ave', sans-serif;
+  /*background: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#648880, #293f50);
+}*/
 }
+
+.woo{
+  font-size:30;
+  font-family: 'Sedgwick Ave', sans-serif;
+}
+
 
 .words{
   font-family: 'Raleway', sans-serif;
@@ -48,6 +59,7 @@ display:inline;
     /* Style the buttons inside the tab */
     div.tab button {
         font-family: 'Raleway', sans-serif;
+        font-size: 15;
         background-color: inherit;
         float: left;
         border: none;
